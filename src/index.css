@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    @apply text-slate-900;
+  }
+
+  .dark {
+    color-scheme: dark;
+    @apply text-slate-50;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
